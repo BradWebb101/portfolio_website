@@ -2,6 +2,12 @@
 
 ## HTML page only 
 
+###Requirements
+- Python 3.7
+
 ### Installation 
-No need to install just HTML page at the moment.
+```python
+pip install -r requirements.txt'
+python app.py
+```
 
