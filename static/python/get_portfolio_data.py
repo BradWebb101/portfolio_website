@@ -29,8 +29,5 @@ class get_data_dict():
                             },
                         )['Item']
 
-            else:
-                self.data = None
-                 
-        except ClientError as e:
-            return None
+            
+  
