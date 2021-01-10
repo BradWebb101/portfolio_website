@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-from static.python.get_portfolio_data import get_portfolio_data
 
 app = Flask(__name__)
 
