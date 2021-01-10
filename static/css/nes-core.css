@@ -2096,17 +2096,3 @@ input[type="checkbox"] {
 }
 /*# sourceMappingURL=nes-core.css.map */
 
-.nes-progress {
-  height: 25px;
-}
-.canvas-container {
-width: 100%;
-text-align:center;
-}
-
-.canvas {
-  display: inline;
-}
-.img-container {
-    text-align: center;
-  }
