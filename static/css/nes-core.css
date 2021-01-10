@@ -1138,6 +1138,14 @@ input[type="checkbox"] {
   background-color: #fff;
 }
 
+.nes-container.with-title > .title {
+  display: table;
+  padding: 0 0.5rem;
+  margin: -1.8rem 0 1rem;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
 .nes-container.with-title.is-centered > .title {
   margin: -2rem auto 1rem;
 }
@@ -2087,3 +2095,18 @@ input[type="checkbox"] {
   outline-color: #e7e7e7;
 }
 /*# sourceMappingURL=nes-core.css.map */
+
+.nes-progress {
+  height: 25px;
+}
+.canvas-container {
+width: 100%;
+text-align:center;
+}
+
+.canvas {
+  display: inline;
+}
+.img-container {
+    text-align: center;
+  }
