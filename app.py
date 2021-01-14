@@ -1,10 +1,12 @@
 from flask import Flask, render_template
+from static.python import portfolio_data
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-   return render_template('index.html')
+   data = portfolio_data.data
+   return render_template('index.html', data=data)
 
 if __name__ == '__main__':
-   app.run(host='0.0.0.0')
+   app.run()
