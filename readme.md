@@ -13,8 +13,4 @@ python app.py
 
 ## Details
 
-### Screenshot
-
-![Website Screenshot](./readme_images/website_screenshot.PNG =400x)
-
 ### Front End
