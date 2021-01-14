@@ -4,17 +4,17 @@
 
 - Python 3.7
 
-## Installation 
+## Installation
 
 ```python
 pip install -r requirements.txt'
 python app.py
 ```
 
-## Details 
+## Details
 
 ### Screenshot
 
-![Website Screenshot](readme_images/website_screenshot.PNG =400x)
+![Website Screenshot](./readme_images/website_screenshot.PNG =400x)
 
 ### Front End
