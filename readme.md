@@ -15,6 +15,6 @@ python app.py
 
 ### Screenshot
 
-![] (readme_images/website_screenshot.PNG)
+![Website Screenshot](readme_images/website_screenshot.PNG =400x)
 
 ### Front End
