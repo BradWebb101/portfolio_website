@@ -2,7 +2,7 @@
 This project is the repository for my personal portfolio website. It is written to show my personal coding projects and provide my contact details.
 
 ## Project Example
-[Website](bradwebb101.com)
+[Website](https://bradwebb101.com)
 
 ## Things i borrowed 
  - CSS library - NES CSS https://github.com/nostalgic-css/NES.css
