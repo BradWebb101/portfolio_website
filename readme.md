@@ -1,4 +1,4 @@
-## Project title
+## Personal Project Portfolio
 This project is the repository for my personal portfolio website. It is written to show my personal coding projects and provide my contact details.
 
 ## Project Example
