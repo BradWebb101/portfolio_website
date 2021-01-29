@@ -3,7 +3,7 @@
  * @version 1.0.0
  * @author Panagiotis Vourtsis <vourtsis_pan@hotmail.com>
  */
-window.onload = function() {
+window.onload = function () {
   'use strict';
 
   var canvas = document.getElementById('canvas');
@@ -204,7 +204,6 @@ window.onload = function() {
      */
     if (player.x == pokeball.x && player.y == pokeball.y) {
       // found a pokeball !! create a new one
-      console.log('found a pokeball of ' + pokeball.spritePosition + '! Bravo! ');
       score += 1;
       pokeball.generatePosition();
     }
@@ -238,8 +237,6 @@ window.onload = function() {
     );
 
     //player
-    console.log('y:', (player.y * objectSizes) / objectSizes);
-    console.log('x', (player.x * objectSizes) / objectSizes);
     ctx.drawImage(
       playerImage,
       player.direction[player.currentDirection].x,
@@ -265,7 +262,7 @@ window.onload = function() {
 
     if ((x > 3 && x < 9 && y == 6) || (x > 4 && x < 9 && (y == 5 || y == 4 || y == 3))) {
       //collision on house
-      console.log('on house');
+     
       foundCollision = true;
     }
 
@@ -280,7 +277,7 @@ window.onload = function() {
       (x > 46 && (y == 19 || y == 20)) || //right bottom corner
       (x > 48 && (y == 17 || y == 18)) //right bottom corner 2
     ) {
-      console.log('lost on the woods');
+    
       foundCollision = true;
     }
 

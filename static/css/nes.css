@@ -2722,6 +2722,15 @@ input[type="checkbox"] {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .jumbotron {
+     background-image:url('http://www.part-box.com/images/yellow-frog.png');
+      height: 200px; // customize it
+      background-repeat: no-repeat;
+      background-size: cover;
+        }
+}
+
 .nes-phone {
   position: relative;
   display: inline-block;

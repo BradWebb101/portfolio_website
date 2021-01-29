@@ -8,29 +8,23 @@
     type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link href="static/css/nes.min.css" rel="stylesheet" />
+  <link href="static/css/custom.css" rel="stylesheet" />
   <title>Brad Webbs Portfolio</title>
   <style>
-    body {
-      padding-bottom: 10px;
-    }
-    .nes-progress {
-      height: 25px;
-    }
-    .canvas-container {
-   width: 100%;
-   text-align:center;
-}
-
-    .canvas {
-      display: inline;
-    }
-    .img-container {
-        text-align: center;
-      }
+   
   </style>
    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
    <script src="static/js/canvas.pokemon.js"></script>
-   
+   <script src="static/js/div-creation.js"></script>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-41W3F6QBXZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-41W3F6QBXZ');
+</script>
 </head>
 <body>
   <nav style="padding: 20px; border-bottom: 3px solid #ccc; margin-bottom: 10px;">
@@ -46,33 +40,18 @@
     <div class="row">
       <!-- left -->
       <div class="col-md-4 col-sm-12 col-xs-12">
-        <div class="nes-container with-title" style="margin-top: 20px; margin-bottom: 40px;">
+        <div class="nes-container with-title" style="margin-top: 10px; margin-bottom: 20px;">
           <h3 class="title">This is me</h3>
           <div>
             <div class="img-container">
-                <img src="static/images/headshot.png" alt="headshot" width="222" height="222" class='centre' padding-left="50">
+                <img src="static/images/headshot.png" alt="headshot" width="280" height="420" class='centre' padding-left="50">
             </div>
-          </div>
-        </div>
-      
-        <div class="nes-container with-title" style="margin-top: 15px; margin-bottom: 20px;">
-          <div class="title">Contact details</div>
-          <div>
-            <a href="https://www.linkedin.com/in/brad-webb-101/">
-              <i class="nes-icon linkedin"></i>
-            </a>
-            <a href="https://github.com/BradWebb101">
-              <i class="nes-icon github"></i>
-            </a>
-            <a href="mailto:bradwebb101@outlook.com">
-              <i class="nes-icon gmail"></i>
-            </a>
           </div>
         </div>
       </div>
      <!-- right      -->
       <div class="col-md-8 col-sm-12 col-xs-12">
-        <div class="nes-container with-title" style="margin-top: 20px; margin-bottom: 30px;">
+        <div class="nes-container with-title" style="margin-top: 10px; margin-bottom: 16px;">
           <h3 class="title">Skill set</h3>
           <div class="row">
             <div class="col-sm-6 col-xs-12">
@@ -118,80 +97,70 @@
               Google Analytics</div>
           </div>
         </div>
-        <div class="nes-container with-title" style="margin-top: 65px; margin-bottom: 20px">
+
+        <div class="nes-container with-title" style="margin-top: 16px; margin-bottom: 16px">
           <h3 class="title">Education</h3>
           <div class="row">
-            <h3 class='topic-title'>
+            <div class="col-sm-12 col-xs-12">
               <i class="nes-icon star">
               </i>
               Masters of Applied Finance
-            </h3>
+          </div>
           </div>
 
           <div class="row">
-            <h3 class='topic-title'>
+            <div class="col-sm-12 col-xs-12">
               <i class="nes-icon star">
               </i>
               Bachelour of Business - Finance
-            </h3>
+          </div>
+          </div>
+        </div>
+
+        <div class="nes-container with-title" style="margin-top: 18px; margin-bottom: 20px;">
+          <div class="title">Contact details</div>
+          <div>
+            <a href="https://www.linkedin.com/in/brad-webb-101/">
+              <i class="nes-icon linkedin"></i>
+            </a>
+            <a href="https://github.com/BradWebb101">
+              <i class="nes-icon github"></i>
+            </a>
+            <a href="mailto:bradwebb101@outlook.com">
+              <i class="nes-icon gmail"></i>
+            </a>
           </div>
         </div>
       </div>
-    </div>      
-      <div class="container" style="font-size: 90%; margin-top: 10px; margin-bottom: 20px;"> 
-        <h3 class="topic-title">
-          <i class="nes-icon heart"></i> Recent Project Examples
-        </h3>
-        <div class="nes-container">
-          <div class="row" style="margin-bottom: 30px;">
-            <div class="col-xs-2">
-              <i class='nes-bulbasaur'>
-              </i>
-            </div>
-            <div class="col-xs-10">
-              <h3>#Balr Twitter - Python, HTML, CSS, JS</h3>
-              <p>A Twitter dashboard, using Tweepy, DynamoDB and Flask</p>
-              <a href='https://github.com/BradWebb101/balr_twitter' target='_blank'>Source code</a>
-            </div>
-          </div>
-    
-          <!-- <div class="row" style="margin-top: 30px; margin-bottom: 30px;">
-            <div class="col-xs-2">
-              <i class='nes-squirtle'>
-              </i>
-            </div>
-            <div class="col-xs-10">
-              <h3>My living room temperature - Javascript</h3>
-              <p>Javascript RestAPI, using Express, DynamoDB</p>
-              <a href='https://github.com/BradWebb101/balr_twitter'>Source code</a>
-            </div>
-          </div> -->
-          <div class="row" style="margin-top: 30px;">
-            <div class="col-xs-2">
-              <i class='nes-charmander'>
-              </i>
-            </div>
-            <div class="col-xs-10">
-              <h3>Covid data RestAPI - Python</h3>
-              <p>Python RestAPI, using Flask and DynamoDB</p>
-              <a href='https://github.com/BradWebb101/Covid-data' target='_blank'>Source code</a>
-            </div>
-          </div>
-        </div>
+    </div>
       </div>
-<!-- 
-    <div class="container" style="font-size: 90%; margin-top: 30px; margin-bottom: 30px;"> 
-      <div class="nes-container1 with-title">
+  
+      <div class="container">
+        <div class="row"> 
+
+      <div class="col-sm-12 col-xs-12">
+        <div id='portfolio_container' class="nes-container with-title" style="margin-bottom: 20px">
+          <h3 class="title">Recent Projects</h3>
+        </div>   
+      </div>
+
+ 
+      <div class="col-sm-12 col-xs-12">
+      <div class="nes-container with-title non-mobile">
         <h3 class="title">Go on take a break, you deserve it</h3>
         <div class="row">
           <div class="canvas-container">
+           Use arrow keys <span class='badge badge-primary m-2' style="margin-top: 0px; margin-bottom: 0px">&larr;</span> <span class='badge badge-primary m-2' style="margin-top: 0px; margin-bottom: 0px">&rarr;</span> to move!</p>
             <canvas id="canvas" width="1044" height='458'></canvas>
           </div>
         </div>
       </div>
     </div>
+    </div>
+  </div>  
+  </div>
   
-   -->
+
 
   <div class="container" style="margin-top: 10px; font-size: 90%;">
     <div class="row">

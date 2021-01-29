@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1024px) {
+    .nes-container
+    {
+        margin: auto;
+    }
+  }
+
+body {
+    padding-bottom: 10px;
+  }
+  .nes-progress {
+    height: 25px;
+  }
+  .canvas-container {
+ width: 100%;
+ text-align:center;
+ 
+}
+
+.more-projects {
+    text-align:center;
+   }
+
+  .canvas {
+    display: inline;
+  }
+  .img-container {
+      text-align: center;
+    }
+
+
+@media screen and (max-width: 1024px) {
+    .canvas-container {
+        display: none !important;
+    }
+}
+.nes-container.non-mobile > .title {
+    display: table;
+    padding: 0 0.5rem;
+    margin: -1.8rem 0 1rem;
+    font-size: 1rem;
+    background-color: #fff;
+  }
+@media screen and (max-width: 1024px) {
+.nes-container.non-mobile {
+    display: none !important;
+}
+}
