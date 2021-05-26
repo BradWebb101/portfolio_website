@@ -1,4 +1,4 @@
-# Please note i am currently actuvley updating this repository, Readme is out of date will update shortly.
+# Please note i am currently activley updating this repository, Readme is out of date will update shortly.
 
 # Personal Project Portfolio
 
