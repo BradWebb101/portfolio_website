@@ -1,4 +1,6 @@
-~~ Personal Project Portfolio
+# Please note i am currently actuvley updating this repository, Readme is out of date will update shortly.
+
+# Personal Project Portfolio
 
 This project is the repository for my personal portfolio website. It is written to show my personal coding projects and provide my contact details.
 
@@ -31,4 +33,4 @@ This project is the repository for my personal portfolio website. It is written 
 
 ## Downloading and usage
 
-As this project is just HTML and Vanilla JS, the only dependency to use this project is a web browser. To install clone this repo and open index.html. Website will load in the browser. All javascript code is stored in static/js~~
+As this project is just HTML and Vanilla JS, the only dependency to use this project is a web browser. To install clone this repo and open index.html. Website will load in the browser. All javascript code is stored in static/js
