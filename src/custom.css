@@ -1,9 +1,9 @@
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
     .nes-container
     {
         margin: auto;
     }
-  }
+  } */
 
 body {
     padding-bottom: 10px;
@@ -28,7 +28,7 @@ body {
       text-align: center;
     }
 
-
+/* 
 @media screen and (max-width: 1024px) {
     .canvas-container {
         display: none !important;
@@ -46,3 +46,5 @@ body {
     display: none !important;
 }
 }
+ */
+
