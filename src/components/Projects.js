@@ -71,6 +71,10 @@ class Projects extends Component {
                     <a href={item["github_link"]["S"]} target="_blank" rel="noreferrer">
                       Source code
                     </a>
+                    {item['web_link']['S'] !== '' ? ' | ': null}
+                    {item['web_link']['S'] !== '' ? <a href={item["web_link"]["S"]} target="_blank" rel="noreferrer">
+                      Site
+                    </a>: null}
                   </div>
                 </div>
               ))}
