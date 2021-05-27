@@ -1,6 +1,6 @@
 # Personal Project Portfolio
 
-This project is the repository for my personal portfolio website. It is written to show my personal coding projects and provide my contact details. This is my first React App I have done 
+This project is the repository for my personal portfolio website. It is to show my personal projects, contact details and as a way of learning React. This is my first React App I have done, previous front end attemps were coded in HTML and vanilla JS. I have learnt that React is far less frustrating to design and code front ends, the things you learn hey. 
 
 ## Screenshot
 
