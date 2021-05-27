@@ -68,7 +68,7 @@ class Projects extends Component {
                   <div class="col-xs-8">
                     <h4>{item["project_name"]["S"]}</h4>
                     <p>{item["description"]["S"]}</p>
-                    <a href={item["github_link"]["S"]} target="_blank">
+                    <a href={item["github_link"]["S"]} target="_blank" rel="noreferrer">
                       Source code
                     </a>
                   </div>

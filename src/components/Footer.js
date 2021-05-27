@@ -11,6 +11,7 @@ class Footer extends Component {
           <a
             href="https://github.com/BradWebb101/portfolio_website"
             target="_blank"
+            rel="noreferrer"
           >
             Source Code
           </a>

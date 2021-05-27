@@ -1,8 +1,6 @@
-# Please note i am currently activley updating this repository, Readme is out of date will update shortly.
-
 # Personal Project Portfolio
 
-This project is the repository for my personal portfolio website. It is written to show my personal coding projects and provide my contact details.
+This project is the repository for my personal portfolio website. It is written to show my personal coding projects and provide my contact details. This is my first React App I have done 
 
 ## Screenshot
 
@@ -15,13 +13,13 @@ This project is the repository for my personal portfolio website. It is written 
 ## Things i borrowed
 
 - CSS library - NES CSS https://github.com/nostalgic-css/NES.css
-- Pokemon Javascript Game https://github.com/panvourtsis/HTML5-canvas-game---POKEMON-
+- Pokemon Javascript Game https://github.com/panvourtsis/HTML5-canvas-game---POKEMON- (Canvas.js in src/components)
 
 ## How is it built
 
 ### Front end
 
-- This project is built on HTML and Vanilla Javascript. This is the first website i have built, so starting from the begining.
+- This project is built with React, I migrated this site from my old attempt using HTML and Vanilla JS. 
 
 ### Back end
 
@@ -33,4 +31,20 @@ This project is the repository for my personal portfolio website. It is written 
 
 ## Downloading and usage
 
-As this project is just HTML and Vanilla JS, the only dependency to use this project is a web browser. To install clone this repo and open index.html. Website will load in the browser. All javascript code is stored in static/js
+To use this repo you need to clone it with git, into your source folder. 
+
+``` git
+git clone https://github.com/BradWebb101/portfolio_website.git .
+'''
+
+Once you have cloned the files into your source folder, use NPM to install the modules
+
+``` cmd 
+npm install 
+```
+
+Once NPM has installed the modules, use the NPM run command to mount the app 
+
+``` cmd 
+npm run 
+```

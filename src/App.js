@@ -6,7 +6,7 @@ import "typeface-press-start-2p";
 
 import BasicInfo from "./components/BasicInfo";
 import Projects from "./components/Projects";
-// import Game from "./components/Game";
+import Canvas from "./components/Canvas"
 import Footer from "./components/Footer";
 
 import '../src/custom.css'
@@ -19,7 +19,7 @@ class App extends Component {
           <div id="colorlib-main">
             <BasicInfo></BasicInfo>
             <Projects></Projects>
-            {/* <Game></Game> */}
+            <Canvas></Canvas>
             <Footer></Footer>
           </div>
         </div>
