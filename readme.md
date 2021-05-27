@@ -31,6 +31,10 @@ This project is the repository for my personal portfolio website. It is to show 
 
 ## Downloading and usage
 
+You will need to install node to run this app 
+
+https://nodejs.org/en/
+
 To use this repo you need to clone it with git, into your source folder. 
 
 ``` git
