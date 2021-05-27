@@ -53,7 +53,7 @@ class Projects extends Component {
             >
               <h3 className="title">Recent Projects</h3>
 
-              {data.map((item) => (
+              {data.reverse().map((item) => (
                 <div
                   class="row"
                   style={{ marginTop: "30px", marginBottom: "30px" }}
