@@ -1,16 +1,21 @@
+//Importing react elements
 import React, { Component } from "react";
 
+//Importing CSS and Font files
+import "typeface-press-start-2p";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "nes.css/css/nes.min.css";
-import "typeface-press-start-2p";
 
+//Importing custom individual components
 import BasicInfo from "./components/BasicInfo";
 import Projects from "./components/Projects";
 import Canvas from "./components/Canvas"
 import Footer from "./components/Footer";
 
+//Importing custom css files
 import '../src/custom.css'
 
+//Rending html components
 class App extends Component {
   render() {
     return (

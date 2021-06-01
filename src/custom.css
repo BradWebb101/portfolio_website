@@ -1,3 +1,4 @@
+/* Media query allows for changes to the css, if the screen size is below a pixel value (Mobile) */
 @media only screen and (max-width: 1024px) {
     .nes-container
     {
@@ -5,6 +6,7 @@
     }
   }
 
+/* Changing padding and alignment of text in containers */
 body {
     padding-bottom: 10px;
   }
@@ -16,7 +18,7 @@ body {
  text-align:center;
  
 }
-
+/* Changing alignment of text in containers */
 .more-projects {
     text-align:center;
    }
@@ -28,12 +30,14 @@ body {
       text-align: center;
     }
 
-
+/* Removes canvas container (Pokemon game) if media below pixel size */
 @media screen and (max-width: 1024px) {
     .canvas-container {
         display: none !important;
     }
 }
+
+/* Changing title value margins, to better fit in design */
 .nes-container.non-mobile > .title {
     display: table;
     padding: 0 0.5rem;
@@ -41,6 +45,7 @@ body {
     font-size: 1rem;
     background-color: #fff;
   }
+/* Removes container (Pokemon game) if media below pixel size */
 @media screen and (max-width: 1024px) {
 .nes-container.non-mobile {
     display: none !important;
