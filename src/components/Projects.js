@@ -3,44 +3,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 class Projects extends Component {
   render() {
-    // const data = fetch(
-    //   "https://kfipmta4tf.execute-api.eu-west-2.amazonaws.com/porfoliowebsite_index/",
-    //   {
-    //     method: "GET",
-    //   }
-    // ).then((response) => response.json());
-
-    const data = [
+    const data = fetch(
+      "https://kfipmta4tf.execute-api.eu-west-2.amazonaws.com/porfoliowebsite_index/",
       {
-        display_front: { S: "yes" },
-        project_name: { S: "Covid data RestAPI - Python" },
-        image: { S: "nes-charmander" },
-        project_number: { N: "3" },
-        github_link: { S: "https://github.com/BradWebb101/Covid-data" },
-        web_link: { S: "" },
-        description: { S: "Python RestAPI, using Flask and DynamoDB" },
-      },
-      {
-        project_name: { S: "Room temperature - Node" },
-        display_front: { S: "yes" },
-        image: { S: "nes-squirtle" },
-        project_number: { N: "2" },
-        github_link: { S: "https://github.com/BradWebb101/living_room_temp" },
-        web_link: { S: "" },
-        description: {
-          S: "Node GraphQL Server, using Apollo Server and DynamoDB",
-        },
-      },
-      {
-        display_front: { S: "yes" },
-        project_name: { S: "#Balr Twitter - Python, HTML, CSS, JS" },
-        image: { S: "nes-bulbasaur" },
-        project_number: { N: "1" },
-        github_link: { S: "https://github.com/BradWebb101/balr_twitter" },
-        web_link: { S: "https://balr-twitter.bradwebb101.com/" },
-        description: { S: "A Twitter dashboard, using Tweepy and DynamoDB" },
-      },
-    ];
+        method: "GET",
+      }
+    ).then((response) => response.json());
 
     return (
       <div className="container">

@@ -2,8 +2,8 @@
 import React, { Component } from "react";
 
 //Importing CSS and Font files
-import "typeface-press-start-2p";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "typeface-press-start-2p";
 import "nes.css/css/nes.min.css";
 
 //Importing custom individual components
