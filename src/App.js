@@ -1,6 +1,7 @@
 //Importing react elements
 import React, { Component } from "react";
 
+
 //Importing CSS and Font files
 import "bootstrap/dist/css/bootstrap.min.css";
 import "typeface-press-start-2p";
@@ -15,9 +16,12 @@ import Footer from "./components/Footer";
 //Importing custom css files
 import '../src/custom.css'
 
+
 //Rending html components
 class App extends Component {
+
   render() {
+
     return (
       <div id="colorlib-page">
         <div id="container-wrap">
@@ -31,6 +35,7 @@ class App extends Component {
       </div>
     );
   }
+
 }
 
-export default App;
+export default App

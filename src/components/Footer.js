@@ -1,7 +1,4 @@
-import React, { Component } from "react";
-
-class Footer extends Component {
-  render() {
+const Footer = () => {
     return (
       <div className="container" style={{ marginTop: "10px", fontSize: "90%" }}>
         <div
@@ -19,6 +16,6 @@ class Footer extends Component {
       </div>
     );
   }
-}
+
 
 export default Footer;

@@ -2,8 +2,8 @@ import React, { Component } from "react";
 
 import canvas from './canvas.pokemon'
 
-class Game extends Component {
-  render() {
+
+const Game = () => {
     return (
       <div className="container">
         <div className="row">
@@ -37,6 +37,6 @@ class Game extends Component {
       </div>
     );
   }
-}
+
 
 export default Game;

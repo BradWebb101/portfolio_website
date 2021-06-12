@@ -1,7 +1,4 @@
-import React, { Component } from "react";
-
-class BasicInfo extends Component {
-  render() {
+const BasicInfo = () => {
     return (
       <div>
         <nav
@@ -132,5 +129,5 @@ class BasicInfo extends Component {
       </div>
     );
   }
-}
+
 export default BasicInfo;

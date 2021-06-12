@@ -1,14 +1,32 @@
-import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { Component } from 'react'
 
 class Projects extends Component {
-  render() {
-    const data = fetch(
-      "https://kfipmta4tf.execute-api.eu-west-2.amazonaws.com/porfoliowebsite_index/",
-      {
-        method: "GET",
-      }
-    ).then((response) => response.json());
+    constructor() {
+      super();
+      this.state = {
+        name: "React",
+      };
+      this.apiCall = this.apiCall.bind(this);
+    }
+  
+    componentDidMount() {
+      this.apiCall();
+    }
+
+  async apiCall() {
+          const data = await fetch("https://kfipmta4tf.execute-api.eu-west-2.amazonaws.com/porfoliowebsite_index")
+            .then(response => response.json())
+            .then(function(response) {
+              return response
+            })
+            .catch(function(error) {
+              console.log(error);
+            });
+          this.setState({ data: data });
+        }
+        render(){
+          const { data } = this.state
+          
 
     return (
       <div className="container">
@@ -20,8 +38,9 @@ class Projects extends Component {
               style={{ marginBottom: "20px" }}
             >
               <h3 className="title">Recent Projects</h3>
-
-              {data.reverse().map((item) => (
+              
+              {data && data.map(item => {
+                return (
                 <div
                   class="row"
                   style={{ marginTop: "30px", marginBottom: "30px" }}
@@ -45,13 +64,15 @@ class Projects extends Component {
                     </a>: null}
                   </div>
                 </div>
-              ))}
+              )})}
             </div>
           </div>
         </div>
       </div>
-    );
-  }
-}
+        
+        )
+        }
+        }
+        ;
 
-export default Projects;
+export default Projects
